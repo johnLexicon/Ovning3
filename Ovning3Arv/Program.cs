@@ -40,7 +40,7 @@ namespace Ovning3Arv
                 if (animal is IPerson)
                 {
                     IPerson animalPerson = animal as IPerson;
-                    animalPerson.Talk();
+                    Console.WriteLine(animalPerson.Talk());
                 }
                 if(animal is Dog)
                 {

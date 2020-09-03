@@ -58,7 +58,7 @@ namespace Ovning3Inkapsulering
             }
             set
             {
-                if (age < 0)
+                if (value < 0) //Måste jämföra med value som innehåller värdet som kommer in annars jämför du med värdet du redan har.
                 {
                     throw new ArgumentException("Age cannot be less than zero");
                 }
