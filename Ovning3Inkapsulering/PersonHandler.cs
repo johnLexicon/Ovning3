@@ -40,5 +40,24 @@ namespace Ovning3Inkapsulering
             person.FName = fName;
         }
 
+        public string GetLName(Person person)
+        {
+            return person.LName;
+        }
+
+        public void SetLName(Person person, string LName)
+        {
+            person.LName = LName;
+        }
+
+        public double GetHeight(Person person)
+        {
+            return person.Height;
+        }
+        public void SetHeight(Person person, double height)
+        {
+            person.Height = height;
+        }
+
     }
 }
